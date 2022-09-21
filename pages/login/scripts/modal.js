@@ -1,5 +1,5 @@
 let botao      = document.querySelector(".esqueciSenha")
-let modal      = document.querySelector(".telaPorCima")
+let fundo      = document.querySelector(".fundo")
 let fecharComX = document.querySelector(".xSair")
 let enviar     = document.querySelector(".enviar")
 
@@ -8,9 +8,9 @@ botao.addEventListener("click",function(event){
     //parar Eventos
 event.preventDefault()
 
-//remover class
 
-modal.classList.add("aparecerTelaPorCima")
+//remover class
+fundo.classList.add("aparecerTelaPorCima")
 })
 
 
@@ -22,7 +22,7 @@ event.preventDefault()
 
 //remover class
 
-modal.classList.remove("aparecerTelaPorCima")
+fundo.classList.remove("aparecerTelaPorCima")
 })
 
 
@@ -34,6 +34,6 @@ event.preventDefault()
 
 //remover class
 
-modal.classList.remove("aparecerTelaPorCima")
+fundo.classList.remove("aparecerTelaPorCima")
 })
 

@@ -143,6 +143,16 @@ margin: 0px 0px 0px 600px;
 text-align: center;
 }
 
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(11, 13, 20, 0.5);
+    display: none;
+}
+
 .telaPorCima
 {
 background-color: #ffffff;
@@ -153,12 +163,14 @@ border: solid rgb(0, 255, 98);
 padding: 0;
 align-items: center;
 align-content: space-around;
-display: none;
+display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin: -513px 0px 0px 769px;
+margin: 208px 0px 0px 712px;
 position: absolute;
+
 }
+
 
 .aparecerTelaPorCima
 {
@@ -197,3 +209,4 @@ background-color: #ffffff;
 font-weight: bold;
 cursor: pointer;
 }
+
